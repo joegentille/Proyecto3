@@ -86,7 +86,11 @@ body{
     color: #fff;
 }
 
-.main .row .menu_izq{    
+.main .row .menu_izq a{
+    color: #fff;
+}
+
+.main .row .menu_izq{
     padding: 22px 20px;
     cursor: pointer;
 }
