@@ -66,6 +66,9 @@ body{
 .barra-lateral .menu a:hover{
     background: #35ae6b;
     text-decoration: none;
+    padding-left: 55px;
+    transition-duration: 1s;
+    transition-delay: 0s;
 }
 
 .barra-lateral .menu a i{
