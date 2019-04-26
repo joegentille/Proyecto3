@@ -3,5 +3,16 @@
 }
 
 .seleccion_1{
-    background: #d3d3d3;
+    background: #d3d3d3; /*DimGray: #d3d3d3 */
 }
+
+.seleccion_2{
+    background: #6495ed;
+}
+
+.seleccion_3{
+    background: #40e0d0;
+}
+
+.seleccion_4{
+    border: 1px solid red;
