@@ -48,13 +48,14 @@ body{
 .barra-lateral .logo h2{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    padding: 20px 0;
+    padding: 16px 0;
     text-align: center;
     font-weight: 300;
     margin: 0;
 }
 
 /*** MENU ***/
+
 .barra-lateral .menu a{
     display: block;
     padding: 10px;
@@ -74,4 +75,32 @@ body{
 .barra-lateral .menu a i{
     margin-right: 20px;
     font-weight: normal;
+}
+
+/***************************************************/
+
+/** Pantalla Derecha **/
+
+.barra-contenido{
+    background: #3c8dbc;    
+    color: #fff;
+}
+
+.main .row .menu_izq{    
+    padding: 22px 20px;
+    cursor: pointer;
+}
+
+.main .row .menu_izq:hover{
+    background: #367fa9;
+    cursor: pointer;
+    height: inherit;
+}
+
+.main .row .menu_der{
+    background: rgb(17, 105, 56);
+}
+
+.main .side2{
+    border: 1px solid darkorange;
 }
