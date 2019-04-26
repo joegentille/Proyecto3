@@ -1,5 +1,6 @@
 $(function(){
-    var boton = $('#btn-menu');
+    /* var boton = $('#btn-menu'); */
+    var boton = $('.menu_izq');
     var enlaces = $('.barra-lateral');
     /* var fondo_enlace = $('#') */
     boton.on('click', function(){
@@ -15,8 +16,15 @@ $(function(){
             /* $('.barra-lateral .menu a i').css('margin','0px'); */
             $('.barra-lateral .menu a').css('transition','none');
             $('.barra-lateral .menu a').css('padding','10px');
+            $('.barra-lateral .menu a i').css('padding','0 0 0 18px');
         }else{
-            /* enlaces.css('display','block'); */
+            /* $('.barra-lateral').css('min-width','80px');  */
+            $('.barra-lateral .menu a span').css('display', 'block');
+            $('.barra-lateral .logo h2').text("Mi DashBoard");
+            /* $('.barra-lateral .menu a i').css('margin','0px'); */
+            /* $('.barra-lateral .menu a').css('transition','none'); */
+            /* $('.barra-lateral .menu a').css('padding','10px'); */
+            /* $('.barra-lateral .menu a i').css('padding','0 0 0 18px'); */
         }
         /* alert("Hola"); */
     });
